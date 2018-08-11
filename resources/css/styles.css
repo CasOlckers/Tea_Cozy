@@ -22,6 +22,12 @@ h4 {
   color: seashell;
 }
 
+h3 {
+  font-size: 18px;
+  font-family: Helvetica;
+  color: seashell;
+}
+
 /*Nav Container */
 
 .Nav_Container {
@@ -132,6 +138,19 @@ padding: 10px;
   border-style: dashed;
   border-color: purple;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.Location1 {
+  background-color: black
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
 }
 
 /* Footer Container */
