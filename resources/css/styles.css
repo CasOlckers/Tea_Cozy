@@ -1,0 +1,133 @@
+/*Main Container */
+
+.Main_Container {
+  display: flex;
+  height: 2219px;
+  width: 1200px;
+  border-style: dashed;
+  border-color: black;
+  flex-direction: column;
+}
+
+h2 {
+  font-size: 30px;
+  font-family: Helvetica;
+  color: seashell;
+
+}
+
+h4 {
+  font-size: 22px;
+  font-family: Helvetica;
+  color: seashell;
+}
+
+/*Nav Container */
+
+.Nav_Container {
+  display: flex;
+  flex-direction: row;
+  height: 69px;
+  width: 1200px;
+  border-style: dashed;
+  border-color: red;
+  background-color: black;
+
+}
+
+.Nav_Container span {
+padding: 10px;
+}
+
+.Tea-Cozy-logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 10px;
+
+}
+
+.Tea-Cozy-logo img {
+  height: 50px;
+}
+
+
+#nav_panel {
+  display: inline-block;
+  font-size: 22px;
+  color: seashell;
+  justify-content: space-around;
+
+}
+
+/* Mission Container */
+
+.Mission_Container {
+  display: flex;
+  height: 700px;
+  width: 1200px;
+  border-style: dashed;
+  border-color: blue;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.Mission_Detail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: black
+  
+
+
+
+
+
+
+
+
+}
+
+/*.Mission_Detail {
+  height: 100px;
+  width: 1200px;
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  border-style: solid;
+  border-color: black */
+}
+
+/* FeaturedTea_Container */
+
+.FeaturedTea_Container {
+  display: flex;
+  height: 650px;
+  width: 1200px;
+  border-style: dashed;
+  border-color: green;
+}
+
+/* Locations Container */
+
+.Locations_Container {
+  display: flex;
+  height: 500px;
+  width: 1200px;
+  border-style: dashed;
+  border-color: purple;
+}
+
+/* Footer Container */
+
+.Footer_Container {
+  display: flex;
+  height: 300px;
+  width: 1200px;
+  border-style: dashed;
+  border-color: orange;
+}
