@@ -81,26 +81,10 @@ padding: 10px;
   align-items: center;
   flex-direction: column;
   background-color: black
-  
-
-
-
-
-
-
-
 
 }
 
-/*.Mission_Detail {
-  height: 100px;
-  width: 1200px;
-  background-color: black;
-  display: flex;
-  flex-wrap: wrap;
-  border-style: solid;
-  border-color: black */
-}
+
 
 /* FeaturedTea_Container */
 
@@ -110,6 +94,31 @@ padding: 10px;
   width: 1200px;
   border-style: dashed;
   border-color: green;
+  background-color: black;
+  justify-content: center;
+
+}
+
+.Tea_Of_The_Month_Container {
+  width: 1000px;
+
+}
+
+
+.Teas_Of_The_Month {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.Teas_Of_The_Month img {
+  height: 200px;
+  width: 300px;
+  padding: 10px;
+
 }
 
 /* Locations Container */
