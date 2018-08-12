@@ -28,6 +28,13 @@ h3 {
   color: seashell;
 }
 
+h5 {
+  font-size: 16px;
+  font-family: Helvetica;
+  color: seashell;
+}
+
+
 /*Nav Container */
 
 .Nav_Container {
@@ -107,6 +114,7 @@ padding: 10px;
 
 .Tea_Of_The_Month_Container {
   width: 1000px;
+  text-align: center;
 
 }
 
@@ -121,13 +129,54 @@ padding: 10px;
 
 }
 
+
 .Teas_Of_The_Month img {
   height: 200px;
   width: 300px;
   padding: 10px;
-  flex-grow: 1;
 
 }
+
+.Teas_Of_The_Month h4 {
+  padding-top: 10px;
+}
+
+.img1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.img2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+}
+
+.img3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.img4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.img5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
 
 /* Locations Container */
 
@@ -155,7 +204,8 @@ padding: 10px;
   flex-direction: row;
   margin: 0px auto;
   justify-content: space-around;
-  width: 1060px;
+  align-content: space-around;
+  width: 1100px;
   height: auto;
 
 }
@@ -203,14 +253,35 @@ padding: 10px;
   padding: 20px;
 
 
+
 }
 
 /* Footer Container */
 
 .Footer_Container {
   display: flex;
-  height: 300px;
+  flex-direction: column;
+  height: 200px;
   width: 1200px;
   border-style: dashed;
   border-color: orange;
+  background-color: black;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+/* Copyright Container */
+
+.CopyRight_Container {
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  width: 1200px;
+  border-style: dashed;
+  border-color: brown;
+  background-color: black;
+  justify-content: flex-start;
+  align-content: flex-start;
+  text-align: left;
 }
