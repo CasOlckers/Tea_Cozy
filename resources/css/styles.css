@@ -48,11 +48,17 @@ p {
   height: 69px;
   width: 1200px;
   background-color: black;
+  position: fixed;
 
 }
 
-.Nav_Container span {
-padding: 10px;
+.nav_panel span {
+padding-right: : 10px;
+font-family: Helvetica;
+color: seashell;
+font-size: 20px;
+text-decoration: underline;
+
 }
 
 .Tea-Cozy-logo {
@@ -94,7 +100,8 @@ padding: 10px;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: black
+  background-color: black;
+  flex-grow: 2;
 
 }
 
@@ -104,7 +111,7 @@ padding: 10px;
 
 .FeaturedTea_Container {
   display: flex;
-  height: 650px;
+  height: 800px;
   width: 1200px;
   background-color: black;
   justify-content: center;
@@ -181,7 +188,7 @@ padding: 10px;
 
 .Locations_Container {
   display: flex;
-  height: 500px;
+  height: 400px;
   width: 1200px;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
   flex-direction: column;
