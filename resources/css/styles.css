@@ -4,9 +4,8 @@
   display: flex;
   height: 2219px;
   width: 1200px;
-  border-style: dashed;
-  border-color: black;
   flex-direction: column;
+  border-bottom: 1px solid seashell;
 }
 
 h2 {
@@ -42,8 +41,6 @@ h5 {
   flex-direction: row;
   height: 69px;
   width: 1200px;
-  border-style: dashed;
-  border-color: red;
   background-color: black;
 
 }
@@ -79,8 +76,6 @@ padding: 10px;
   display: flex;
   height: 700px;
   width: 1200px;
-  border-style: dashed;
-  border-color: blue;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
   flex-direction: row;
   align-items: center;
@@ -105,8 +100,6 @@ padding: 10px;
   display: flex;
   height: 650px;
   width: 1200px;
-  border-style: dashed;
-  border-color: green;
   background-color: black;
   justify-content: center;
 
@@ -126,6 +119,8 @@ padding: 10px;
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
+  width: 1000px;
+
 
 }
 
@@ -145,6 +140,8 @@ padding: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
+
+
 
 }
 
@@ -184,8 +181,6 @@ padding: 10px;
   display: flex;
   height: 500px;
   width: 1200px;
-  border-style: dashed;
-  border-color: purple;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
   flex-direction: column;
   opacity: 1;
@@ -263,8 +258,6 @@ padding: 10px;
   flex-direction: column;
   height: 200px;
   width: 1200px;
-  border-style: dashed;
-  border-color: orange;
   background-color: black;
   justify-content: center;
   align-content: center;
@@ -278,8 +271,6 @@ padding: 10px;
   flex-direction: row;
   height: 100px;
   width: 1200px;
-  border-style: dashed;
-  border-color: brown;
   background-color: black;
   justify-content: flex-start;
   align-content: flex-start;
