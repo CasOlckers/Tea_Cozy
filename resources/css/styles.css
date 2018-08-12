@@ -141,6 +141,7 @@ padding: 10px;
   flex-direction: column;
   opacity: 1;
   flex: 1 1 auto;
+
 }
 
 .Locations_Header {
@@ -152,7 +153,11 @@ padding: 10px;
 .stores {
   display: flex;
   flex-direction: row;
-  margin: 0 auto;
+  margin: 0px auto;
+  justify-content: space-around;
+  width: 1060px;
+  height: auto;
+
 }
 
 .Location1 {
@@ -162,7 +167,11 @@ padding: 10px;
   display: flex;
   flex-direction: column;
   text-align: center;
-  opacity: 1
+  opacity: 1;
+  border-style: solid;
+  border-color: purple;
+  padding: 20px;
+
 
 }
 
@@ -173,19 +182,25 @@ padding: 10px;
   display: flex;
   flex-direction: column;
   text-align: center;
-  opacity: 1
+  opacity: 1;
+  border-style: solid;
+  border-color: purple;
+  padding: 20px;
 
 
 }
 
 .Location3 {
-  background: black
+  background-color: black
   width: 300px;
   height: 220px;
   display: flex;
   flex-direction: column;
   text-align: center;
-  opacity: 1
+  opacity: 1;
+  border-style: solid;
+  border-color: purple;
+  padding: 20px;
 
 
 }
